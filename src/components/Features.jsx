@@ -36,7 +36,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="container mx-auto p-6 bg-blue-200 h-full">
+    <div className="container mx-auto p-6 bg-blue-100 h-full">
       <h2 className="text-3xl font-bold mb-6 text-center ">Something You Need To Know</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-8 px-16">
         {features.map((feature, index) => (
